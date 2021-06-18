@@ -1,7 +1,7 @@
 About dtool_symlink
 ===================
 
-Home: http://github.com/jic-dtool/dtool-symlink
+Home: https://github.com/jic-dtool/dtool-symlink
 
 Package license: MIT
 
@@ -10,6 +10,8 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dtool_symlink-f
 Summary: give dtool ability to create dataset where data directory is a symlink.
 
 Development: https://github.com/jic-dtool/dtool-symlink
+
+Documentation: https://github.com/jic-dtool/dtool-symlink
 
 Current build status
 ====================
