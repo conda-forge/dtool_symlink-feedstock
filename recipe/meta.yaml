@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/dtool-symlink/dtool-symlink-{{ version }}.tar.gz
-  sha256: "355d7b3138dc1675c682632107875c49c112922d43f6b200900217d1f9a43559"
+  sha256: "b8efec1d72dc56cb3825d1e237316bf6d926c775c005ff2179ed8ff2cedad248"
 
 build:
   number: 2
