@@ -121,4 +121,5 @@ Feedstock Maintainers
 
 * [@jan-janssen](https://github.com/jan-janssen/)
 * [@pvanheus](https://github.com/pvanheus/)
+* [@tjelvar-olsson](https://github.com/tjelvar-olsson/)
 
