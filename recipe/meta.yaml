@@ -1,5 +1,5 @@
 {% set name = "dtool_symlink" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/dtool-symlink/dtool-symlink-{{ version }}.tar.gz
-  sha256: "b8efec1d72dc56cb3825d1e237316bf6d926c775c005ff2179ed8ff2cedad248"
+  sha256: 8d3d4cce64c5fdb5aafe7e4c4dd07fb3e57b0ff8308ed635776d1856e9f26b9b
 
 build:
-  number: 3
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -38,7 +38,7 @@ about:
   home: https://github.com/jic-dtool/dtool-symlink
   license: MIT
   license_file: LICENSE.rst
-  summary: 'give dtool ability to create dataset where data directory is a symlink.'
+  summary: give dtool ability to create dataset where data directory is a symlink.
   doc_url: https://github.com/jic-dtool/dtool-symlink
   dev_url: https://github.com/jic-dtool/dtool-symlink
 
