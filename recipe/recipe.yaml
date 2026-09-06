@@ -35,7 +35,9 @@ tests:
         - dtool_symlink
         - dtool_symlink.storagebroker
       pip_check: true
-      python_version: ${{ python_min }}
+      python_version:
+        - ${{ python_min }}
+        - "*"
 
 about:
   license: MIT
